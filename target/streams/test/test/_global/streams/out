@@ -1,0 +1,46 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CompanyValidatorTest, org.scalatest.tools.Framework$$anon$1@40f51019, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(EmployeeValidatorTest, org.scalatest.tools.Framework$$anon$1@40f51019, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MathematicsTest, org.scalatest.tools.Framework$$anon$1@40f51019, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(EmailTest, org.scalatest.tools.Framework$$anon$1@40f51019, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMathematicsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- dividing 4 by 2 should give 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- dividing 0 by 2 should give 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- dividing 3 by 2 should give 1.5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- dividing 3 by 0 should give infinity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- dividing 3 by -2 should give -1.5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fibonni of 0 should be 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fibonni of 1 should be 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fibonni of 5 should be 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fibonni of -5 should be 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fibonni of 25 should be 75025[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmployeeValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- valid email and valid company should return true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- valid email but invalid company should return false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- invalid email but valid company should return false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- invalid email and invalid company should return false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmailTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return true with names undercase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return true with names in uppercase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return true with names in numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return true with names in alphanumberic (upper and lower case)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return false without an @ symbol[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return false with two @ symbols[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return false with an invalid top-level domain[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return false without a recipient name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return false without a domain name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- email validator should return false without a top-level domain[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- valid email and valid company should return true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- valid email but existing company should return false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- invalid email but valid company should return false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- invalid email and invalid company should return false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 358 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 28[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 28, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyValidatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EmailTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MathematicsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EmployeeValidatorTest[0m
